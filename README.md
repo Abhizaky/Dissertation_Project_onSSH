@@ -3,7 +3,7 @@ This repository contains machine learning models for reconstructing sea surface 
 
 ## Models
 
-### 1. CNN Model (`notebooks/CNN_SSH_Reconstruction.ipynb`)
+### 1. CNN Model (`CNN_1D.ipynb`)
 - 1D Convolutional Neural Network
 - Two-channel input (SSH data + binary mask)
 - Masked MSE loss for gap-filling
