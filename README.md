@@ -1,2 +1,10 @@
-# Dissertation_Project_onSSH
-This repository is for my rough and final for my dissertation projects
+# CNN Model for 1D & 2D
+This repository contains machine learning models for reconstructing sea surface height (SSH) time series data.
+
+## Models
+
+### 1. CNN Model (`notebooks/CNN_SSH_Reconstruction.ipynb`)
+- 1D Convolutional Neural Network
+- Two-channel input (SSH data + binary mask)
+- Masked MSE loss for gap-filling
+- R² score evaluation
